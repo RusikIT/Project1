@@ -1,23 +1,4 @@
-body {
-
-     width: 500px;
-
+body {width: 500px;
      height: 1000px;
-
      background-color:white;
-
-     margin:5px 400px 5px 400px;
-
-}
-
-.mydiv{text-align: left;
-
- }
-
-.content {background: white;
-
-             padding: 10px 30px 10px 30px;
-
-
-}
-
+     margin:5px 400px 5px 400px;}
