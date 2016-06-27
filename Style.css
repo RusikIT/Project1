@@ -1,16 +1,17 @@
 body {
   
-background-color: grey
+  background-color: grey
+
 }
 
 h3 {
 
-  text-align: center;
+   text-align: center;
 
 }
 
 div {
   
-padding: 40px; width: 550px; margin: auto; background-color: white;
+  padding: 40px; width: 550px; margin: auto; background-color: white;
 
 }
