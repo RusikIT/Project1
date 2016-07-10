@@ -1,0 +1,146 @@
+.menu {
+    background: linear-gradient(to top, #085596, #074d8a);
+    margin: 0 auto;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  
+}
+
+.menu li {
+    display: inline-block;
+    padding: 7px 0;
+	width: auto;
+/*     border-left: 1px solid transparent;
+    border-right: 1px solid transparent; */
+    transition: 0.5s all;
+	background: url(menu_icons.gif) 0 50% no-repeat;
+}
+
+
+.menu li:hover {
+  /*   border-left: 1px solid #838383;
+    border-right: 1px solid #838383; */
+    background: #4eabda;
+
+}
+.menu .active {
+    border-left: 1px solid white;
+	color: white;
+}
+
+.menu .active2 {
+    background: #4eabda;
+	color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #60b5ed;
+    padding: 3px 10px;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+.background {
+	background: url(../img/fon.jpg); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+	margin: 0px; /* Убираем отступы */
+    height: 700px; /* Высота страницы */
+
+}
+
+.trblock {
+    position: absolute;
+	width: 400px;
+    height: 520px;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+/* 	opacity: 0.7; /* Значение прозрачности */
+ */    font-size: 18px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+.content {
+	position:relative;
+} 
+
+
+.inpform{
+	width: 276px;
+	color: white;
+	background-color: black;
+
+
+}
+
+.newbut {
+    width: 60%;
+	background: linear-gradient(to top, #3b5699, #31447c);
+    padding: 10px;
+    border: 1px solid #333;
+	border-radius: 5px;
+	color: white;
+	font-weight:bold;
+
+}
+
+.newbut2 {
+    background: #4299d2;
+    padding: 10px;
+    border: 1px solid #333;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	opacity: 1; Значение прозрачности
+}
+ 
+ .checkbox1 {
+	color: white;
+	font-size: 11px;
+	font-weight: normal;
+ 
+ }
+ 
+ input:focus { 
+    background-color: #1b5288;
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+}
+ 
+
+ input {
+	transition: all 0.30s ease-in-out;
+	outline:none;
+	border: 1px solid #cccccc; //цвет рамки
+    border-radius: 3px; //закругление углов (общее)
+	width: 145px;
+}
+
+.flag {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.fb {
+    width: 276px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
