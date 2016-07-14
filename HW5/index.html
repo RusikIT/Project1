@@ -1,48 +1,55 @@
-﻿<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Input</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta charset="utf-8">
-  </head>
+	<meta charset="UTF-8">
+	  <link rel="stylesheet" href="css/reset.css">
+	  <link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
 <body>
-    
-  <div class="menu">
-                <ul>
-                    <li><a href="#">MeuYourBike</a></li>
-					<li><a href="#">Vender</a></li>
-					<li><a href="#">Forum</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Ajudo</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#" class="active"><img class="flag" src="img/flag.png">Minhas Ofertas</a></li>
-					<li><a href="#" class="active2">Ola! Entrar ou Cadastre-se</a></li>
-                </ul>
-  </div>
-  
-  <div class="background">
-	<div class="trblock">
-		<p>Cadastre-se</p>
-		<hr><br>
-			<div class="fb">
-                    <a href="https://www.facebook.com" target="_blank"><img src="img/fb.png" alt=""></a>
-            </div>
-			<p style="color: grey">
-			<s>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</s> OU <s>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</s><br>
-			</p>
-			<form action="/">
-				<input type="text" class="inpform" name="text" placeholder="First Name"required><br><br>
-				<input class="inpform" type="text" name="Last Name" placeholder="Last Name"><br><br>
-				<input class="inpform" type="email" name="email" placeholder="Email Address"><br><br>
-				<input class="inpform" type="password" name="password" placeholder="Choose Password"><br><br>
-				<input class="inpform" type="password" name="passwordconf" placeholder="Password Confirm"><br><br>
-				<input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Sen me Yourbike upadates and tips</label><br><br>
-			<div class="content">
-				<button class="newbut2">Create my Account    ></button><br>
-			</form>
+
+<div class="wrap">
+	<header class="header">
+		<nav class="nav">
+			<ul>
+				<li><a href="#">Meu YouBike</a></li>
+				<li><a href="#" id="active">Vender</a></li>
+				<li><a href="#">Forum</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="#">Ajuda</a></li>
+				<li class="name"><a href="#"> Minhas Ofertas</a></li>
+				<li class="sign_in"><a href="#">Ola! <u>Entrar</u> ou <u>Cadastre-se</u></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="main_top">
+				<h1>Cadastre-se</h1>
 			</div>
-			<p class="checkbox1">By clicking on this button above you agree to the Terms of Service <br> view our Privacy Policy</p>
-	</div>	
-  </div>	
+			<div class="main_bottom">
+				<aside class="login">
+				  <div class="fb">
+				    <a href="#" class="app"><span class="flogo"></span><span class="fb_text">Log In with Facebook &nbsp &gt;</span></a>
+			      </div>
+						<span class="ou"> OU </span>
+					<form class="login_list">
+						<input type="text" name="login_form" id="first_name" placeholder="First Name">
+						<input type="text" name="login_form" id="last_name" placeholder="Last Name">
+						<input type="text" name="login_form" id="email" placeholder="Email Addres">
+						<input type="password" name="login_form" id="password_ch" placeholder="Choose Password">
+						<input type="password" name="login_form" id="password_cf" placeholder="Password Confirm">
+					</form>
+						<label class="checkbox">
+						<input type="checkbox" name="login_form" id="send"> Send me Youbike updates and tips</label>
+						<input class="btn" type="button" value="Create my Account">
+						<span class="footer">By clicking the button above, you agree to the Terms of ServiceXiew our Privacy Policy.</span>
+				</aside>
+			</div>
+		</div>
+	</main>
+</div>
+
+
 </body>
 </html>
